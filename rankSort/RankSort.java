@@ -5,6 +5,8 @@ class RankSort{
 	public void rankAlgorithmBruteForce(int[] inputArray, int[] rankArray, int[] outputArray){ /*Brute Force approach*/
 		int nSize = inputArray.length; /*save length of original array*/
 
+			/*Note how we use two independent nested loops to compare global value and current value*/
+			/*This indicates that the algorithm can be parallelize as a result of its structure*/
 			for(int i = 0; i < nSize; i++){//iterate over unsorted list
 
 			int lowestMin = inputArray[i]; //assume first has lowest rank
