@@ -35,11 +35,8 @@ class RankSort{
 			/*the value of rankList at index m becomes the index of the sortedList and sortedList's value is passed by unsortedList's m index. 
 			RankList's value at index 0 is 3, and we initialize the sorted list's value at index 3 to the orginal list's value at index 0. 
 			Thus, the new array's value at index 3 is 13. When m is 1, rankList's value is 1, and we assign the original list's value at index 1 to the sorted list at position 1, which is 9.*/
-
 			}
 		}
-
-		
 	}
 	public static void main(String[] args){
 
